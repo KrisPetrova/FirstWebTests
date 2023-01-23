@@ -1,6 +1,6 @@
 package lesson4;
 
-public class TriangleArea {
+/*public class TriangleArea {
     public static void main(String[] args) throws TriangleException {
 
         System.out.printf("Площадь %.2f", geroneSquare(3, 4, 5));
@@ -14,3 +14,4 @@ public class TriangleArea {
         return area;
     }
 }
+*/
