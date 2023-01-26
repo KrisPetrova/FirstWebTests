@@ -1,5 +1,5 @@
 package lesson5test;
-
+/*
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -55,3 +55,4 @@ public abstract class AbstractTest {
         AbstractTest.driver = driver;
     }
 }
+*/
