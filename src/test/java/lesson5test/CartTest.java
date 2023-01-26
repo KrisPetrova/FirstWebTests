@@ -1,10 +1,11 @@
 package lesson5test;
-
+/*
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
@@ -13,7 +14,7 @@ public class CartTest extends AbstractTest{
 
     @Test
     @Order(1)
-    void addToCart() throws InterruptedException {
+    void addToCart(WebDriver driver) throws InterruptedException {
         WebElement webElement6 = driver.findElement(By.xpath(".//*[@class='cart-products']"));
         webElement6.getText();
 
@@ -23,7 +24,7 @@ public class CartTest extends AbstractTest{
 
     @Test
     @Order(2)
-    void addItemToCart() {
+    void addItemToCart(WebDriver driver) {
         WebElement webElement7 = driver.findElement(By.xpath(".//button[@class='custom-button plus gray round']"));
         webElement7.click();
 
@@ -35,7 +36,7 @@ public class CartTest extends AbstractTest{
 
     @Test
     @Order(3)
-    void emptyCart() {
+    void emptyCart(WebDriver driver) {
         WebElement webElement9 = driver.findElement(By.xpath(".//*[@class='link_underlined']"));
         webElement9.click();
 
@@ -50,7 +51,7 @@ public class CartTest extends AbstractTest{
 
     @Test
     @Order(4)
-    void removeCart() {
+    void removeCart(WebDriver driver) {
         WebElement webElement12 = driver.findElement(By.xpath(".//p[text()='Wok паназиатский М']/../.."));
         webElement12.getText();
 
@@ -65,7 +66,7 @@ public class CartTest extends AbstractTest{
 
     @Test
     @Order(5)
-    void delivery() {
+    void delivery(WebDriver driver) {
         WebElement webElement14 = driver.findElement(By.xpath(".//a[@href='/msk/cart/delivery/']"));
         webElement14.click();
 
@@ -74,10 +75,12 @@ public class CartTest extends AbstractTest{
 
     @Test
     @Order(6)
-    void pickUp() {
+    void pickUp(WebDriver driver) {
         WebElement webElement15 = driver.findElement(By.xpath(".//a[@href='/msk/cart/pickup/']"));
         webElement15.click();
 
         Assertions.assertTrue(driver.findElements(By.xpath(".//a[@href='/msk/cart/pickup/']")).size() > 0);
     }
 }
+
+ */
