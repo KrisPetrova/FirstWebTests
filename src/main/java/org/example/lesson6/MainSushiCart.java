@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MainSushiCart extends lesson6.AbstractSushiPage {
+public class MainSushiCart extends AbstractSushiPage {
 
     @FindBy(xpath = ".//a[@href='/msk/menu/kitajskaja-lapsha-wok/']")  //webElement1
     private WebElement noodlesWok;

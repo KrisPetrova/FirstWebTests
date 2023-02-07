@@ -1,5 +1,5 @@
 package lesson6test;
-/*
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -36,4 +36,3 @@ public class AbstractCartTest {
         return this.webDriver;
     }
 }
-*/

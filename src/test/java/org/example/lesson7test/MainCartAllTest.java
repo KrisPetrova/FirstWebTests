@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.example.lesson6.MainSushiCart;
 
 @Story("Моя пользовательская история")
 public class MainCartAllTest extends AbstractCartAllTest {
@@ -95,7 +96,7 @@ public class MainCartAllTest extends AbstractCartAllTest {
                 .clickwokPanAsMplus()
                 .clickwokPanAsMclose()
                 .clickopenCart()
-                .clickbuttonDelivery;
+                .clickbuttonDelivery();
         Assertions.assertEquals("https://sushiwok.ru/msk/cart/delivery/",getWebDriver().getCurrentUrl());
     }
 

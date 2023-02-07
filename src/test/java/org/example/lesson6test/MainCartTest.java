@@ -1,10 +1,11 @@
-package lesson6test;
-/*
+package org.example.lesson6test;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.example.lesson6.MainSushiCart;
 
-public class MainCartTest extends AbstractCartTest{
+public class MainCartTest extends AbstractCartTest {
 
     @Test
     @Order(1)
@@ -80,7 +81,7 @@ public class MainCartTest extends AbstractCartTest{
                 .clickwokPanAsMplus()
                 .clickwokPanAsMclose()
                 .clickopenCart()
-                .clickbuttonDelivery;
+                .clickbuttonDelivery();
         Assertions.assertEquals("https://sushiwok.ru/msk/cart/delivery/",getWebDriver().getCurrentUrl());
     }
 
@@ -99,4 +100,3 @@ public class MainCartTest extends AbstractCartTest{
         Assertions.assertEquals("https://sushiwok.ru/msk/cart/pickup/",getWebDriver().getCurrentUrl());
     }
 }
-*/
